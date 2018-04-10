@@ -1,1 +1,18 @@
 # Default application configuration file.
+
+# Swagger Documentation
+
+swagger:
+  title: My Spring Boot Microservice
+  description: A Spring Boot microservice.
+  regex: /api/.*
+  version: 1.0
+  contact:
+    name: Martin Ingram
+    url: https://github.com/dev-bloke/archetypes
+    email: dev.bloke@devbloke.me.uk
+  license:
+    type: License Type
+    url: http://license.url/
+  tos:
+    url: http://termsofservice.url/
